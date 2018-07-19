@@ -1,0 +1,21 @@
+{
+  "name": "@tradle/credstash-cli",
+  "version": "1.0.0",
+  "description": "command line client for credstash",
+  "main": "cmd.js",
+  "bin": "cmd.js",
+  "dependencies": {
+    "aws-sdk": "^2.278.1",
+    "nodecredstash": "github:tradle/credstash"
+  },
+  "keywords": [
+    "credstash",
+    "kms",
+    "s3",
+    "dynamodb",
+    "credential-store",
+    "credentials-store"
+  ],
+  "author": "mvayngrib",
+  "license": "MIT"
+}
